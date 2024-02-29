@@ -223,6 +223,47 @@ input[type="radio"] {
   text-decoration: none;
   color: #fff;
 }
+.taptonaivigate {
+  text-align: center;
+  color: #f39a34;
+  font-size: 0rem;
+}
+.dotdot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dotdotwrapper {
+  width: 7vw;
+}
+.dotdottext {
+  width: 1vw;
+  height: 2vh;
+  background-color: red;
+  border-radius: 1vw;
+  animation: dotanimation 2.5s infinite alternate;
+}
+@keyframes dotanimation {
+  0% {
+    background-color: #f39a34;
+  }
+  25% {
+    background-color: #183867;
+    margin-left: 3vh;
+  }
+  50% {
+    background-color: #f39a34;
+    margin-left: 6vh;
+  }
+  75% {
+    background-color: #183867;
+    margin-left: 9vh;
+  }
+  100% {
+    background-color: #f39a34;
+    margin-left: 12vh;
+  }
+}
 
 @media (max-width: 768px) {
   .container {
@@ -244,10 +285,12 @@ input[type="radio"] {
     margin-top: 5vh;
     margin-bottom: -4vh;
   }
+
   .button label {
     height: 25px;
     width: 25px;
   }
+
   .button label.active {
     height: 25px;
     width: 25px;
@@ -264,5 +307,39 @@ input[type="radio"] {
     border-radius: 5vw;
     margin-top: 2.5vh;
     margin-bottom: 0vh;
+  }
+  .taptonaivigate {
+    text-align: center;
+    color: #f39a34;
+    font-size: 1.2rem;
+  }
+
+  .dotdotwrapper {
+    width: 0vw;
+    margin-bottom: 1vh;
+  }
+  .dotdottext {
+    width: 3vw;
+    height: 2vh;
+    background-color: red;
+    border-radius: 50%;
+    animation: dotanimation 2.5s infinite alternate;
+  }
+  @keyframes dotanimation {
+    0% {
+      background-color: #f39a34;
+    }
+    25% {
+      background-color: #183867;
+    }
+    50% {
+      background-color: #f39a34;
+    }
+    75% {
+      background-color: #183867;
+    }
+    100% {
+      background-color: #f39a34;
+    }
   }
 }

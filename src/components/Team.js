@@ -361,6 +361,14 @@ function Team() {
           <label for="three" className="three"></label>
           <label for="four" className="four"></label>
         </div>
+        <div className="dotdot">
+          <div className="dotdotwrapper">
+            <div className="dotdottext"></div>
+          </div>
+        </div>
+        <div className="taptonaivigate">
+          Tap the bubble to navigate through.
+        </div>
       </div>
     </div>
   );
