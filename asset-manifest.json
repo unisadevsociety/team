@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/team/static/css/main.32cf2ede.css",
-    "main.js": "/team/static/js/main.41404724.js",
+    "main.css": "/team/static/css/main.231b3304.css",
+    "main.js": "/team/static/js/main.4845da84.js",
     "static/media/Elton2.jpg": "/team/static/media/Elton2.c7e2cff1b2849d3f2a9c.jpg",
     "static/media/ditshego malepe.jpg": "/team/static/media/ditshego malepe.e98dc8b1362ebce6f309.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/team/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -16,11 +16,11 @@
     "static/media/Meacian Fransman.jpeg": "/team/static/media/Meacian Fransman.19b1090fd2cac8c51529.jpeg",
     "static/media/puselotso1.jpg": "/team/static/media/puselotso1.5dd3f96bf28732448ed9.jpg",
     "index.html": "/team/index.html",
-    "main.32cf2ede.css.map": "/team/static/css/main.32cf2ede.css.map",
-    "main.41404724.js.map": "/team/static/js/main.41404724.js.map"
+    "main.231b3304.css.map": "/team/static/css/main.231b3304.css.map",
+    "main.4845da84.js.map": "/team/static/js/main.4845da84.js.map"
   },
   "entrypoints": [
-    "static/css/main.32cf2ede.css",
-    "static/js/main.41404724.js"
+    "static/css/main.231b3304.css",
+    "static/js/main.4845da84.js"
   ]
 }
