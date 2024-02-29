@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
+
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/team">
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
