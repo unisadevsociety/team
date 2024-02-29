@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background: #183867;
+  clip-path: inset(50% 0 0 0);
+  z-index: -1;
+}
+.teamtext {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #183867;
+}
+.container {
+  max-width: 950px;
+
+  width: 100%;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.container .main-card {
+  width: 400%;
+
+  display: flex;
+  justify-content: space-between;
+  transition: all 1s ease;
+}
+#two:checked ~ .main-card {
+  margin-left: -100%;
+}
+#three:checked ~ .main-card {
+  margin-left: -200%;
+}
+#four:checked ~ .main-card {
+  margin-left: -300%;
+}
+.main-card .cards {
+  width: calc(100% / 2 - 10px);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+.main-card .cards .card {
+  background: #fff;
+  width: calc(100% / 3 - 10px);
+  padding: 30px;
+  border-radius: 24px;
+  /* margin-right: 0vw;
+  margin-left: 0vw; */
+  transition: all 0.4s ease;
+}
+.main-card .cards .card:hover {
+  transform: translateY(-15px);
+}
+.cards .card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards .card .content .img {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 14px;
+  padding: 3px;
+  background: #183867;
+  border-radius: 50%;
+}
+
+.cards .card .content .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card .content .details .name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card .content .details .job {
+  font-size: 20px;
+  color: #183867;
+}
+.card .content .media-icons {
+  display: flex;
+  margin-top: 10px;
+}
+.card .content .media-icons a {
+  height: 35px;
+  width: 35px;
+  background: #183867;
+  color: #fff;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 33px;
+  font-size: 14px;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.content .media-icons a:hover {
+  border-color: #b12935;
+  color: #b12935;
+  background: #fff;
+}
+.button {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.button label {
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  margin: 0 4px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+.button label.active {
+  width: 35px;
+}
+#one:checked ~ .button label.one {
+  width: 35px;
+  background-color: #f39a34;
+}
+#two:checked ~ .button label.two {
+  width: 35px;
+  background-color: #b12935;
+}
+#three:checked ~ .button label.three {
+  width: 35px;
+  background-color: #f39a34;
+}
+#four:checked ~ .button label.four {
+  width: 35px;
+  background-color: #b12935;
+}
+
+#two:checked ~ .button label.one {
+  width: 15px;
+}
+#three:checked ~ .button label.one {
+  width: 15px;
+}
+#four:checked ~ .button label.one {
+  width: 15px;
+}
+
+#one:checked ~ .button label.two {
+  width: 15px;
+}
+
+#three:checked ~ .button label.two {
+  width: 15px;
+}
+#four:checked ~ .button label.two {
+  width: 15px;
+}
+
+#one:checked ~ .button label.three {
+  width: 15px;
+}
+#two:checked ~ .button label.three {
+  width: 15px;
+}
+
+#four:checked ~ .button label.three {
+  width: 15px;
+}
+
+#one:checked ~ .button label.four {
+  width: 15px;
+}
+#two:checked ~ .button label.four {
+  width: 15px;
+}
+#three:checked ~ .button label.four {
+  width: 15px;
+}
+input[type="radio"] {
+  display: none;
+}
+.homebutton {
+  width: 6vw;
+  height: 3.5vh;
+  background-color: #f39a34;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+  transition: all 1.5s ease;
+}
+.homebutton:hover {
+  background-color: #b12935;
+  transform: translateY(1px);
+}
+.homebuttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+.homebuttontext {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100vw;
+  }
+  .main-card .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-card .cards .card {
+    background: #fff;
+    width: 100%;
+    padding: 30px;
+    margin-top: 4vh;
+  }
+  .teamtext {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    margin-bottom: -4vh;
+  }
+  .button label {
+    height: 25px;
+    width: 25px;
+  }
+  .button label.active {
+    height: 25px;
+    width: 25px;
+  }
+  .button {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+  }
+  .homebutton {
+    width: 20vw;
+    height: 4.5vh;
+    background-color: #f39a34;
+    border-radius: 5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 0vh;
+  }
+}
