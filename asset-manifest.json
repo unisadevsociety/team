@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/team/static/css/main.32cf2ede.css",
+    "main.js": "/team/static/js/main.41404724.js",
+    "static/media/Elton2.jpg": "/team/static/media/Elton2.c7e2cff1b2849d3f2a9c.jpg",
+    "static/media/ditshego malepe.jpg": "/team/static/media/ditshego malepe.e98dc8b1362ebce6f309.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/team/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/team/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/team/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Akonaho Muneri.jpeg": "/team/static/media/Akonaho Muneri.7487b1cbed5b3463d471.jpeg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/team/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Thobani Mlangeni.jpg": "/team/static/media/Thobani Mlangeni.763fd3c166e0799bb645.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/team/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/lerato.jpg": "/team/static/media/lerato.e1e97d551db0399ac9e8.jpg",
+    "static/media/test.png": "/team/static/media/test.16db59b0838a2a06121e.png",
+    "static/media/Meacian Fransman.jpeg": "/team/static/media/Meacian Fransman.19b1090fd2cac8c51529.jpeg",
+    "static/media/puselotso1.jpg": "/team/static/media/puselotso1.5dd3f96bf28732448ed9.jpg",
+    "index.html": "/team/index.html",
+    "main.32cf2ede.css.map": "/team/static/css/main.32cf2ede.css.map",
+    "main.41404724.js.map": "/team/static/js/main.41404724.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32cf2ede.css",
+    "static/js/main.41404724.js"
+  ]
+}
